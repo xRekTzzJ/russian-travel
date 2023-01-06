@@ -8,7 +8,6 @@
   max-width: 360px;
   margin: 32px 0 0;
   z-index: 1;
-  margin: 32px 0 0 0;
 }
 @media screen and (max-width: 510px) {
   .cover__subtitle {
