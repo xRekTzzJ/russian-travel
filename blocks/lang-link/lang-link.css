@@ -1,0 +1,21 @@
+.lang-link {
+  color: #ffffff;
+  margin: 0 18px 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117%;
+  text-decoration: none;
+  height: 28px;
+}
+
+.lang-link:nth-child(2) {
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .lang-link {
+    height: 20px;
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

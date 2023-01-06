@@ -1,0 +1,10 @@
+.intro__list {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0;
+  font-style: normal;
+  color: #ffffff;
+  width: 100%;
+  max-width: 690px;
+}
