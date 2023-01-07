@@ -1,14 +1,8 @@
 .header__lang-list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: flex-end;
-  min-height: 28px;
-}
-@media screen and (max-width: 320px) {
-  .header__lang-list {
-    min-height: 20px;
-  }
 }

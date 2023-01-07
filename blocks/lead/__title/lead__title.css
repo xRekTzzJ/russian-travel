@@ -9,14 +9,15 @@
   line-height: 104%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 700px) {
   .lead__title {
     font-size: 13.7vw;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .lead__title {
-    max-width: calc(100% - 32px);
+    max-width: 288px;
     font-size: 40px;
     line-height: 110%;
   }
