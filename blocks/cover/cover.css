@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 @media screen and (max-width: 1024px) {
   .cover {
@@ -25,13 +24,11 @@
   .cover {
     margin: 66px 0 64px;
     min-height: 350px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    max-width: 100%;
   }
 }

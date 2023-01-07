@@ -7,10 +7,9 @@
 
 @media screen and (max-width: 530px) {
   .footer__link-list {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: calc(100% - 32px);
+    width: 100%;
   }
 }
