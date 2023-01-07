@@ -8,15 +8,7 @@
   z-index: 1;
   margin: 0;
 }
-@media screen and (max-width: 510px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 109%;
-    max-width: calc(100% - 32px);
-    width: 100%;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
   .cover__title {
     font-size: 32px;
     line-height: 109%;

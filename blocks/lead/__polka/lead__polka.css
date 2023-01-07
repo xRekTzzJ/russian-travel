@@ -2,7 +2,11 @@
   margin: 64px auto 8px;
   width: 100%;
   max-height: 615px;
-  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .lead__polka {
+    max-height: 580px;
+  }
 }
 @media screen and (max-width: 768px) {
   .lead__polka {

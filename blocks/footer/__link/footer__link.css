@@ -8,20 +8,13 @@
   text-decoration: none;
   transition: 0.3s;
 }
-.footer__link:nth-child(5) {
+.footer__link:last-child {
   margin: 0;
 }
 .footer__link:hover {
   opacity: 0.8;
 }
-@media screen and (max-width: 510px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 100%;
-    margin: 0 0 32px;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
   .footer__link {
     font-size: 24px;
     line-height: 100%;

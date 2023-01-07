@@ -3,8 +3,11 @@
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   gap: 48px 40px;
   margin: 0 0 80px;
+  padding: 0;
 }
-
+.place:last-child {
+  margin-bottom: 0;
+}
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
@@ -30,9 +33,6 @@
 }
 @media screen and (max-width: 320px) {
   .place {
-    grid-template-columns: 100%;
     max-width: 320px;
-    gap: 32px;
-    margin: 0 0 50px;
   }
 }

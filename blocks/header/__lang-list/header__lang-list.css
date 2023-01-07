@@ -5,10 +5,10 @@
   margin: 0;
   padding: 0;
   align-items: flex-end;
-  height: 28px;
+  min-height: 28px;
 }
 @media screen and (max-width: 320px) {
   .header__lang-list {
-    height: 20px;
+    min-height: 20px;
   }
 }
