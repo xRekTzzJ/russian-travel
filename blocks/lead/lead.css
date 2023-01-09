@@ -4,15 +4,15 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 56px 0 0;
+  padding: 0;
 }
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: calc(100% - 96px);
-    padding: 48px 0 0;
+    padding: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .lead {
     max-width: 100%;
   }
